@@ -1,0 +1,34 @@
+# DATABASE (da Neon PostgreSQL)
+DATABASE_URL=postgresql://user:password@host.neon.tech/medaxis2?sslmode=require
+
+# EMAIL (Aruba SMTP)
+SMTP_HOST=smtps.aruba.it
+SMTP_PORT=465
+SMTP_USER=noreply@neurohrv.it
+SMTP_PASS=la_tua_password_email
+SMTP_FROM=noreply@neurohrv.it
+
+# PAYPAL (Backend)
+PAYPAL_CLIENT_ID=il_tuo_client_id
+PAYPAL_CLIENT_SECRET=il_tuo_secret
+PAYPAL_MODE=live
+
+# Piano PRO Mensile (€12.19/mese)
+PAYPAL_PRO_PLAN_ID_MONTHLY=P-XXXXXXXXXXXX
+
+# Piano PRO Annuale (€134.20/anno)
+PAYPAL_PRO_PLAN_ID_YEARLY=P-YYYYYYYYYYYY
+
+# PAYPAL (Frontend - accessible in browser)
+VITE_PAYPAL_PRO_PLAN_ID_MONTHLY=P-XXXXXXXXXXXX
+VITE_PAYPAL_PRO_PLAN_ID_YEARLY=P-YYYYYYYYYYYY
+
+# URL APPLICAZIONE
+APP_URL=https://www.neurohrv.it/medaxis2
+
+# CHIAVE SESSIONI (genera una stringa casuale lunga)
+SESSION_SECRET=stringa_casuale_molto_lunga_e_sicura
+
+# AMBIENTE
+NODE_ENV=production
+PORT=5000
